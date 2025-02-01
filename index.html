@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Spotify</title>
+
+    <link rel="stylesheet" href="reset.css"> <!--Resetando os comandos CSS-->
+    <link rel="stylesheet" href="style.css"> <!--Linkando a página de estilo CSS com o arquivo HTML-->
+    <link rel="icon" href="../imagens/Spotify_Primary_Logo_RGB_White.png"> <!--Adicionando icone na aba do navegador-->
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"
+    integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous" /> <!--Importando Icone-->
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"
+    integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous" /> <!--Importando Icone-->
+
+
+</head>
+<body>
+    <div class="sidebar"> <!--Nesta div estamos criando a barra lateral do site-->
+        <nav class="sidebar_navegation">
+
+            <div class="Logo"> <!--Nesta div estou adicionando imagem da logo do spotify-->
+                <a href="">
+                    <img src="../imagens/Spotify_Full_Logo_RGB_White.png" alt="Logo_do_Spotify_Branca"> <!--Adicionando imagem do Spotify na barra lateral-->
+                </a>
+            </div>
+
+            
+                <ul>
+                    <li>
+                        <a href=""> <!--Criação do botão inicio-->
+                            <span class="fa fa-home"></span>
+                            <span>Início</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href=""> <!--Criação do botão buscar-->
+                            <span class="fa fa-search"></span>
+                            <span>Buscar</span>
+                        </a>
+                    </li>
+                </ul>
+                <br>
+
+                <div class="Library"> <!--Div para criação do botão de biblioteca-->
+                    <div class="Library_content">
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <span class="fa fa-bars"></span>
+                                    <span>Biblioteca</span>
+                                    <span class="fa fa-plus" id="botao-mais"></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+        </nav>
+
+        <div class="create_playlist"> <!--Criação do bloco de criar playlist-->
+            <section class="section_playlist">
+                <div class="section_playlist_content">
+                    <span class="text title">Crie sua primeira playlist</span>
+                    <span class="text subtitle">É fácil vamos te ajudar</span>
+                    <button class="section_playlist_button">
+                        <span>Criar playlist</span>
+                    </button>
+                </div>
+            </section>
+
+            <div class="cookies">
+                <a href="">Cookies</a>
+            </div>
+
+            <div class="languages">
+                <button class="languages_button">
+                    <span class="fa fa-globe"></span>
+                    <span>Português do Brasil</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+        <footer class="footerbar">
+                <div class="footerbar_content">
+                    <p class="text title">Testar o premium de graça</p>
+                    <p class="text subtitle">Inscreva-se para escutar músicas ilimitadas e podcasts com alguns anúncios. Não precisa de cartão de crédito.</p>
+                </div>
+                <div class="footerbar_button">
+                    <button>
+                        <span>Inscreva-se grátis</span>
+                    </button>
+                </div> 
+        </footer>
+
+
+
+</body>
+</html>

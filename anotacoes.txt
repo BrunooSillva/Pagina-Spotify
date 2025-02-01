@@ -1,0 +1,22 @@
+-Paleta de Cores
+
+Blue Gray = #609FEB
+Jordy Blue = #87BFFF
+Azure = #4383F5
+Azul = #116DBD
+Uranian Blue = #ADD7F6
+
+-Mais cores
+
+#2384EB
+#1D6BBF
+#227FE3
+#18599E
+#13467D
+#0D3259
+
+-Sites Utilizados
+
+Colors - Site para cores
+Adobe Color - Site para cores
+Font Awesome - Site para icones
