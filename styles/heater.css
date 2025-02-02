@@ -1,5 +1,97 @@
+.main_conatiner {
+    max-width: 80vw;
+    max-height: 100vh;
+    margin-left: 320px;
+    margin-right: 56px;
+}
+
+
 .heater {
     display: flex;
     flex-direction: row;
-    justify-content:flex-end;
+    justify-content: space-between;
+    align-items:center;
+    margin: 10px;
+    padding: 16px;
+}
+
+.heater_navegation {
+    display: flex;
+    justify-content: space-around;
+}
+
+.heater .heater_left_button{
+    margin-left: 500px;
+    margin-right: 25px;
+}
+
+.heater_left_button, .heater_right_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    background: #fff;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+.search_bar {
+    background-color: #87BFFF;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    width: 500px;
+    height: 40px;
+    border: 1px solid transparent;
+}
+
+.search_bar img {
+    width: 16px;
+    height: 16px;
+    margin-left: 10px;
+}
+
+.search_bar input {
+    background-color: transparent;
+    border: none;
+    padding: 0 100px 0 12px;
+    text-decoration: #fff;
+    color: #fff;
+    cursor:pointer;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    outline: none;
+    width: 900px;
+}
+
+
+.heater .heater_buttons .heater_subscribe {
+    margin-left: 50px;
+    margin-right: 30px;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: transparent;
+    border: none;
+    color: #000;
+}
+
+
+.heater .heater_buttons .heater_login {
+    background-color: #fff;
+    color: #000; 
+    border: 1px solid #fff;
+    border-radius: 50px;
+    width: 100px;
+    height: 40px;
+    padding: 5px;
+    font-family: var(--font-arial);
+    font-size: 14px;
+    font-weight: bold;
+    align-items: center;
+    margin-left: 30px;
+    margin-right: 20px;
 }

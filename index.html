@@ -6,6 +6,7 @@
     <title>Página Spotify</title>
 
     <link rel="stylesheet" href="./styles/reset.css"> <!--Resetando os comandos CSS-->
+    <link rel="stylesheet" href="./styles/vars.css"> <!--Linkando css das váriaveis-->
     <link rel="stylesheet" href="./styles/sidebar-footer.css"> <!--Linkando a página de estilo CSS com o arquivo HTML-->
     <link rel="stylesheet" href="./styles/heater.css"> <!--Linkando o CSS do heater no HTML-->
     <link rel="icon" href="../imagens/logos/Spotify_Primary_Logo_RGB_White.png"> <!--Adicionando icone na aba do navegador-->
@@ -84,27 +85,27 @@
 
     </div>
 
-    <main >
-        <nav>
-            <div class="heater">
-                <div class="heater_left_button">
-                    <img src="./imagens/icons/small-left.png" alt="botão-esquerdo">
-                </div>
-                <div class="heater_right_button">
-                    <img src="./imagens/icons/small-right.png" alt="botão-direito">
+    <main>
+        <div class="main_container">
+            <nav class="heater">
+                <div class="heater_navegation">
+                    <button class="heater_left_button">
+                        <img src="./imagens/icons/small-left.png" alt="botão-esquerdo">
+                    </button>
+                    <button class="heater_right_button">
+                        <img src="./imagens/icons/small-right.png" alt="botão-direito">
+                    </button>
                 </div>
                 <div class="search_bar">
-                    <img src="./imagens/icons/search.png" alt="">
-                    <input maxlength="800" placeholder="O que você quer ouvir?">
+                        <img src="./imagens/icons/search.png" alt="">
+                        <input id="barra_pesquisa" type="text" maxlength="800" placeholder="O que você quer ouvir?"/>
                 </div>
-                <div class="heater_subscribe">
-                    <button>Inscreve-se</button>
+                    <div class="heater_buttons">
+                        <button class="heater_subscribe">Inscreve-se</button>
+                        <button class="heater_login">Login</button>
                 </div>
-                <div class="heater_login">
-                    <button>Login</button>
-                </div>
-            </div>
-        </nav>
+            </nav>
+        </div>
     </main>
 
 
