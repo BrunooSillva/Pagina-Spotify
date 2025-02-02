@@ -10,7 +10,7 @@ body {
     bottom: 0;
     padding: 12px;
     width: 300px;
-    height: 800px;
+    height: auto;
     background-color: #116DBD;
     border-radius: 8px;
     padding: 0px 0 0 0px;
