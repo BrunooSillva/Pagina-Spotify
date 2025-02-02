@@ -5,14 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página Spotify</title>
 
-    <link rel="stylesheet" href="reset.css"> <!--Resetando os comandos CSS-->
-    <link rel="stylesheet" href="style.css"> <!--Linkando a página de estilo CSS com o arquivo HTML-->
-    <link rel="icon" href="../imagens/Spotify_Primary_Logo_RGB_White.png"> <!--Adicionando icone na aba do navegador-->
+    <link rel="stylesheet" href="./styles/reset.css"> <!--Resetando os comandos CSS-->
+    <link rel="stylesheet" href="./styles/sidebar-footer.css"> <!--Linkando a página de estilo CSS com o arquivo HTML-->
+    <link rel="stylesheet" href="./styles/heater.css"> <!--Linkando o CSS do heater no HTML-->
+    <link rel="icon" href="../imagens/logos/Spotify_Primary_Logo_RGB_White.png"> <!--Adicionando icone na aba do navegador-->
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"
     integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous" /> <!--Importando Icone-->
 
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"
     integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous" /> <!--Importando Icone-->
 
 
@@ -23,11 +24,10 @@
 
             <div class="Logo"> <!--Nesta div estou adicionando imagem da logo do spotify-->
                 <a href="">
-                    <img src="../imagens/Spotify_Full_Logo_RGB_White.png" alt="Logo_do_Spotify_Branca"> <!--Adicionando imagem do Spotify na barra lateral-->
+                    <img src="../imagens/logos/Spotify_Full_Logo_RGB_White.png" alt="Logo_do_Spotify_Branca"> <!--Adicionando imagem do Spotify na barra lateral-->
                 </a>
             </div>
 
-            
                 <ul>
                     <li>
                         <a href=""> <!--Criação do botão inicio-->
@@ -81,19 +81,46 @@
                 </button>
             </div>
         </div>
+
     </div>
 
-        <footer class="footerbar">
-                <div class="footerbar_content">
-                    <p class="text title">Testar o premium de graça</p>
-                    <p class="text subtitle">Inscreva-se para escutar músicas ilimitadas e podcasts com alguns anúncios. Não precisa de cartão de crédito.</p>
+    <main >
+        <nav>
+            <div class="heater">
+                <div class="heater_left_button">
+                    <img src="./imagens/icons/small-left.png" alt="botão-esquerdo">
                 </div>
-                <div class="footerbar_button">
-                    <button>
-                        <span>Inscreva-se grátis</span>
-                    </button>
-                </div> 
-        </footer>
+                <div class="heater_right_button">
+                    <img src="./imagens/icons/small-right.png" alt="botão-direito">
+                </div>
+                <div class="search_bar">
+                    <img src="./imagens/icons/search.png" alt="">
+                    <input maxlength="800" placeholder="O que você quer ouvir?">
+                </div>
+                <div class="heater_subscribe">
+                    <button>Inscreve-se</button>
+                </div>
+                <div class="heater_login">
+                    <button>Login</button>
+                </div>
+            </div>
+        </nav>
+    </main>
+
+
+
+
+    <footer class="footerbar"> <!--Nesta div estou criando o rodapé da página-->
+            <div class="footerbar_content">
+                <p class="text title">Testar o premium de graça</p>
+                <p class="text subtitle">Inscreva-se para escutar músicas ilimitadas e podcasts com alguns anúncios. Não precisa de cartão de crédito.</p>
+            </div>
+            <div class="footerbar_button">
+                <button>
+                    <span>Inscreva-se grátis</span>
+                </button>
+            </div> 
+    </footer>
 
 
 
