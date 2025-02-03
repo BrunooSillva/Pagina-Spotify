@@ -97,17 +97,20 @@
     margin-right: 20px;
 }
 
+
 .musics_playlist {
     margin-left: 320px;
     display: block;
     flex-direction: column;
-
+    
 }
 
 .musics_playlist .barra_fixa{
     font-family: var(--font-arial);
     font-weight: bold;
     position: fixed;
+    background-color: #609FEB;
+    width: auto;
 }
 
 .musics_playlist .barra_fixa h1 { 
@@ -119,3 +122,4 @@
     font-size: 25px;
     padding: 10px;
 }
+
