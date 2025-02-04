@@ -1,8 +1,17 @@
+.heater_container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
 .main_container {
     max-width: 80vw;
     max-height: 100vh;
     margin-left: 320px;
     margin-right: 56px;
+    background-color: #609FEB;
+    height: 200px;
 }
 
 
@@ -11,7 +20,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items:center;
-    margin: 10px;
+    margin: 0 10px 10px 10px;
     padding: 16px;
 
 }
@@ -24,6 +33,7 @@
 .heater .heater_left_button{
     margin-left: 200px;
     margin-right: 25px;
+
 }
 
 .heater_left_button, .heater_right_button {
@@ -37,6 +47,7 @@
     border-radius: 50%;
     border: none;
     cursor: pointer;
+
 }
 
 .search_bar {
@@ -95,31 +106,31 @@
     align-items: center;
     margin-left: 30px;
     margin-right: 20px;
+    
 }
 
 
-.musics_playlist {
-    margin-left: 320px;
-    display: block;
-    flex-direction: column;
-    
+.playlist_container {
+    margin-left: 0px;
+    background-color: #609FEB;
+    width: 500px;
+    height: 50px;
 }
 
 .musics_playlist .barra_fixa{
     font-family: var(--font-arial);
     font-weight: bold;
     position: fixed;
-    background-color: #609FEB;
     width: auto;
+    align-items: left;
 }
 
-.musics_playlist .barra_fixa h1 { 
-    padding: 10px;
+.musics_playlist .barra_fixa #titulo { 
     font-size: 35px;
-}
-
-.musics_playlist .barra_fixa h2 { 
-    font-size: 25px;
     padding: 10px;
 }
 
+.musics_playlist .barra_fixa #subtitulo { 
+    font-size: 25px;
+    padding:10px;
+}
