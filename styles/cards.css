@@ -7,7 +7,7 @@
 .lista_cards_items {
     display: grid;
     justify-items: center;
-    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     gap: 15px;
     margin-top: 250px;
 }
@@ -15,5 +15,9 @@
 .lista_cards_items .cards img{
     width: 200px;
     height: 200px;
+    border-radius:15px;
 }
 
+.hidden {
+    display: none;
+}

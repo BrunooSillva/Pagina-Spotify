@@ -1,0 +1,5 @@
+@media screen and (max-width: 1015px) {
+    .lista_cards_items {
+        grid-template-columns: 1fr 1fr;
+    }
+}
